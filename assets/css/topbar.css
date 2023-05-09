@@ -1,0 +1,30 @@
+.topbar {
+  max-width: 1072px;
+  margin: 0 auto;
+  padding: 1.5em 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.topbar nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.topbar nav a {
+  padding: 0.5em;
+
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.topbar nav a:focus,
+.topbar nav a:hover {
+  color: var(--text-spanish-violet);
+}

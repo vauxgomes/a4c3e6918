@@ -3,6 +3,8 @@
 
 /* Configurações adicionais */
 @import url(./reset.css);
+@import url(./topbar.css);
+@import url(./misc.css);
 
 :root {
   --bg-orange: #ffa6027F;
@@ -18,4 +20,9 @@
 body {
   color: #373F41;
   font-family: 'Mulish', sans-serif;
+}
+
+header {
+  padding: 0em;
+  background-color: var(--bg-orange);
 }
