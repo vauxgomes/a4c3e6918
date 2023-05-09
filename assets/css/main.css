@@ -1,0 +1,21 @@
+/* Font similar */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+/* Configurações adicionais */
+@import url(./reset.css);
+
+:root {
+  --bg-orange: #ffa6027F;
+  --bg-ufo-green: #2ed573;
+  --bg-sunburnt-cyclops: #ff4757;
+  --bg-majorelle-blue: #4f55dd;
+  --bg-magic-potion: #f73c6b;
+
+  --text-spanish-violet: #3c227c;
+  --text-blue-yonder: #3C64B1;
+}
+
+body {
+  color: #373F41;
+  font-family: 'Mulish', sans-serif;
+}
