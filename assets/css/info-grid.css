@@ -1,0 +1,57 @@
+.info-grid {
+  margin: 50px auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3em;
+}
+
+.info-grid .item {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.info-grid .image-container {
+  position: relative;
+
+  grid-row: 1/2;
+  grid-column: 2/4;
+}
+
+.info-grid .icon {
+  font-size: 30px;
+}
+
+.saly-5 {
+  position: absolute;
+  top: -350px;
+  left: -30px;
+
+  width: 90%;
+  animation: float-h 6s ease-in-out infinite;
+}
+
+.info-grid .item:nth-child(1) .icon {
+  color: #ffb4ea;
+}
+
+.info-grid .item:nth-child(2) .icon {
+  color: #a8aff4;
+}
+
+.info-grid .item:nth-child(3) .icon {
+  color: #2ed57366;
+}
+
+.info-grid .item:nth-child(4) .icon {
+  color: #fe799a;
+}
+
+.info-grid .item:nth-child(5) .icon {
+  color: #8ad8ff;
+}
+
+.info-grid .item:nth-child(6) .icon {
+  color: #f080d0;
+}

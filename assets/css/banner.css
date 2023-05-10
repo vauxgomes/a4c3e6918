@@ -10,6 +10,8 @@
 .banner img {
   position: relative;
   bottom: -10px;
+
+  animation: float-h 5s ease infinite;
 }
 
 .banner div {
