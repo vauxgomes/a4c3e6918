@@ -4,25 +4,36 @@
 /* Configurações adicionais */
 @import url(./reset.css);
 @import url(./topbar.css);
+@import url(./banner.css);
 @import url(./misc.css);
 
 :root {
-  --bg-orange: #ffa6027F;
+  --bg-orange: #ffa6027f;
   --bg-ufo-green: #2ed573;
   --bg-sunburnt-cyclops: #ff4757;
   --bg-majorelle-blue: #4f55dd;
   --bg-magic-potion: #f73c6b;
 
   --text-spanish-violet: #3c227c;
-  --text-blue-yonder: #3C64B1;
+  --text-blue-yonder: #3c64b1;
+  --text-auro-metal-saurus: #737b7d;
+
+  --max-width: 1072px;
 }
 
 body {
-  color: #373F41;
+  color: #373f41;
   font-family: 'Mulish', sans-serif;
 }
 
 header {
   padding: 0em;
   background-color: var(--bg-orange);
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 1;
 }
