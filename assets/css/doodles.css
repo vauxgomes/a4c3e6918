@@ -1,0 +1,7 @@
+.doodle-3 {
+  position: absolute;
+  top: -10px;
+  left: -76px;
+
+  animation: float 6s ease-in-out infinite;
+}

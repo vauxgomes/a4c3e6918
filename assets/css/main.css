@@ -5,6 +5,8 @@
 @import url(./reset.css);
 @import url(./topbar.css);
 @import url(./banner.css);
+@import url(./doodles.css);
+@import url(./animations.css);
 @import url(./misc.css);
 
 :root {
@@ -36,4 +38,16 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.2px;
   line-height: 1;
+}
+
+section {
+  position: relative;
+
+  padding: 3.5em 0;
+  margin: 0 auto;
+  max-width: var(--max-width);
+
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
