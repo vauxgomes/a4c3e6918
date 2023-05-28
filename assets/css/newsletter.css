@@ -1,0 +1,32 @@
+.newsletter {
+  background-color: var(--bg-sunburnt-cyclops);
+}
+
+.newsletter section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.saly-6 {
+  position: absolute;
+  right: 0;
+  width: 55%;
+
+  animation: float 10s ease-in-out infinite;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 1em;
+
+  margin-top: 2em;
+}
+
+.newsletter input {
+  padding: 0.5em 1em;
+  width: 282px;
+
+  font-size: 14px;
+  border: None;
+  border-radius: 8px;
+}

@@ -46,3 +46,16 @@
 .bg-ufo-green {
   background-color: var(--bg-ufo-green);
 }
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.g-1 {
+  gap: 2em;
+}
+
+.text-metal {
+  color: var(--text-auro-metal-saurus);
+}
