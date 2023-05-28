@@ -47,15 +47,31 @@
   background-color: var(--bg-ufo-green);
 }
 
+.d-flex,
 .d-flex-col {
   display: flex;
+}
+
+.d-flex-col {
   flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .g-1 {
   gap: 2em;
 }
 
+.text-muted {
+  color: #e5e5e5;
+}
+
 .text-metal {
   color: var(--text-auro-metal-saurus);
+}
+
+.text-blue {
+  color: var(--text-blue-yonder);
 }

@@ -1,0 +1,57 @@
+.product-prices {
+  flex-direction: column;
+}
+
+.product-prices:first-child {
+  background-color: red;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+
+  margin-block: 2em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5em;
+
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+}
+
+.card:nth-child(1) {
+  --bg-card: var(--bg-orange);
+}
+
+.card:nth-child(2) {
+  --bg-card: var(--bg-ufo-green);
+}
+
+.card:nth-child(3) {
+  --bg-card: var(--bg-sunburnt-cyclops);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+
+  padding: 2em;
+}
+
+.card-title {
+  font-size: 44px;
+}
+
+.card-footer {
+  padding: 1em 2em;
+  background-color: var(--bg-card);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
