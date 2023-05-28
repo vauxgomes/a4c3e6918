@@ -1,3 +1,11 @@
+.doodle-2 {
+  position: absolute;
+  top: -10px;
+  right: -100px;
+
+  animation: float 8s ease-in-out infinite; 
+}
+
 .doodle-3 {
   position: absolute;
   top: -10px;
@@ -14,10 +22,26 @@
   animation: float 5.5s ease-in-out infinite;
 }
 
-.doodle-2 {
+.doodle-5 {
+  position: absolute;
+  bottom: 20px;
+  right: -100px;
+
+  animation: float 5s ease-in-out infinite; 
+}
+
+.doodle-6 {
+  position: absolute;
+  bottom: 50px;
+  left: -100px;
+
+  animation: float 6s ease-in-out infinite; 
+}
+
+.doodle-7 {
   position: absolute;
   top: -10px;
   right: -100px;
 
-  animation: float 8s ease-in-out infinite; 
+  animation: float 7s ease-in-out infinite; 
 }

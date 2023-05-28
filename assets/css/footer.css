@@ -1,0 +1,62 @@
+footer {
+  background-color: var(--bg-ufo-green);
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  display: inline-block;
+  padding: 0.25em 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+footer .grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3em;
+
+  text-align: justify;
+}
+
+footer .grid ul:first-child {
+  grid-column: 1/3;
+}
+
+footer .grid ul li:first-child {
+  margin-bottom: 1.5em;
+}
+
+footer .locations {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+footer .locations a {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer .payment-types {
+  display: flex;
+  justify-content: center;
+  gap: 0.75em;
+}
+
+footer .credits {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+}
